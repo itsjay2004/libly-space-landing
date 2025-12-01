@@ -20,7 +20,7 @@ export const metadata: Metadata = {
             "Simplify library operations with Libly Space. Organize collections, manage members, and track borrowings using a modern, secure, and efficient library management platform.",
         images: [
             {
-                url: "/images/libly-space.svg",
+                url: "/images/libly-space-logo.png",
                 width: 1200,
                 height: 1200,
                 alt: "Libly Space - Modern Library Management Platform",
