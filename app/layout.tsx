@@ -15,12 +15,11 @@ export const metadata: Metadata = {
     publisher: "Libly Space",
 
     openGraph: {
-        title: "Libly Space - Smart Library Management Platform",
-        description:
-            "Simplify library operations with Libly Space. Organize collections, manage members, and track borrowings using a modern, secure, and efficient library management platform.",
+        title: "Libly Space - Modern Library Management System",
+        description: "Libly is a modern library management platform designed to simplify seat management, payment, and membership management for libraries of all sizes. Streamline daily operations, improve accessibility, and deliver a better experience for both staff and owners.",
         images: [
             {
-                url: "/images/libly-space-logo.png",
+                url: "https://libly.space/images/libly-space-logo.png",
                 width: 1200,
                 height: 1200,
                 alt: "Libly Space - Modern Library Management Platform",
@@ -31,7 +30,12 @@ export const metadata: Metadata = {
         siteName: "Libly Space",
         url: "https://libly.space",
     },
-
+    twitter: {
+        card: "summary_large_image",
+        title: "Libly Space - Modern Library Management System",
+        description: "Libly is a modern library management platform designed to simplify seat management, payment, and membership management for libraries of all sizes. Streamline daily operations, improve accessibility, and deliver a better experience for both staff and owners.",
+        images: ["https://libly.space/images/libly-space-logo.png"],
+    },
     robots: {
         index: true,
         follow: true,
